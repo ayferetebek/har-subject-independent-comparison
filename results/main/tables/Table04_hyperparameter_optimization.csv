@@ -1,0 +1,5 @@
+Model,Best Hyperparameters,CV Macro-F1 (mean +/- std),Num. Candidates,Search Time (s)
+SVM (Linear),C=0.1,0.9299 +/- 0.0290,4,44.3000
+SVM (RBF),"C=100, gamma=0.001",0.9289 +/- 0.0222,9,508.9000
+KNN,"metric=manhattan, n_neighbors=21, weights=distance",0.8968 +/- 0.0207,32,1601.4000
+Decision Tree,"criterion=entropy, max_depth=12, min_samples_leaf=5",0.8393 +/- 0.0499,36,520.3000

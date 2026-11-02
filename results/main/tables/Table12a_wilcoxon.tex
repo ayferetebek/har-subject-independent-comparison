@@ -1,0 +1,12 @@
+\begin{tabular}{llrrrrl}
+\toprule
+Model A & Model B & Mean diff (A-B) & W & p & p (Holm) & Significance \\
+\midrule
+SVM (Linear) & SVM (RBF) & 0.0028 & 13.0000 & 0.5469 & 0.5469 & ns \\
+SVM (Linear) & KNN & 0.0382 & 0.0000 & 0.0020 & 0.0117 & * \\
+SVM (Linear) & Decision Tree & 0.0790 & 0.0000 & 0.0020 & 0.0117 & * \\
+SVM (RBF) & KNN & 0.0354 & 0.0000 & 0.0020 & 0.0117 & * \\
+SVM (RBF) & Decision Tree & 0.0762 & 0.0000 & 0.0020 & 0.0117 & * \\
+KNN & Decision Tree & 0.0408 & 0.0000 & 0.0020 & 0.0117 & * \\
+\bottomrule
+\end{tabular}

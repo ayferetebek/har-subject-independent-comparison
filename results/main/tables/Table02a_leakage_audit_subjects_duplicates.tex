@@ -1,0 +1,11 @@
+\begin{tabular}{lll}
+\toprule
+ & Result & Verdict \\
+Check &  &  \\
+\midrule
+Train/Test subject overlap & 0 shared subjects & PASS \\
+Exact duplicate feature rows shared between train and test & 0 / 2947 test rows & PASS \\
+Near-duplicate test rows (standardized dist. < 0.5, n=500 sampled) & 0 / 500 sampled test rows & PASS \\
+Scaler fit scope inside CV / final pipelines & StandardScaler is fit inside each Pipeline, refit per CV fold on the training portion only & PASS \\
+\bottomrule
+\end{tabular}

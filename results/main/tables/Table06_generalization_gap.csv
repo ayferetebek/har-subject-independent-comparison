@@ -1,0 +1,5 @@
+Model,Train Acc.,Test Acc.,Gap (Train-Test)
+SVM (Linear),0.9927,0.9617,0.0310
+SVM (RBF),1.0000,0.9586,0.0414
+KNN,1.0000,0.9060,0.0940
+Decision Tree,0.9883,0.8517,0.1366

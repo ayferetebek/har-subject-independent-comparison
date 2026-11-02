@@ -1,0 +1,5 @@
+,Lying,Sitting,Standing,Walking,Walking Downstairs,Walking Upstairs
+SVM (Linear),1.0000,0.9703,0.9937,0.9993,0.9966,0.9941
+SVM (RBF),1.0000,0.9731,0.9967,0.9980,0.9965,0.9974
+KNN,1.0000,0.9929,0.9952,0.9975,0.9790,0.9904
+Decision Tree,1.0000,0.8888,0.9264,0.9446,0.9220,0.8602

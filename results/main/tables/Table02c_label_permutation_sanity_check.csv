@@ -1,0 +1,3 @@
+Metric,Value
+Test accuracy with permuted training labels,0.1622
+Chance-level accuracy (1/K),0.1667

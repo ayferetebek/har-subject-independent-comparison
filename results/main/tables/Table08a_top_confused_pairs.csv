@@ -1,0 +1,13 @@
+Model,True,Predicted,Count,Rate (%)
+Decision Tree,Sitting,Standing,120,24.4399
+Decision Tree,Standing,Sitting,83,15.6015
+Decision Tree,Walking Upstairs,Walking,83,17.6221
+KNN,Sitting,Standing,101,20.5703
+KNN,Walking Downstairs,Walking Upstairs,60,14.2857
+KNN,Walking Downstairs,Walking,50,11.9048
+SVM (Linear),Sitting,Standing,53,10.7943
+SVM (Linear),Standing,Sitting,18,3.3835
+SVM (Linear),Walking Upstairs,Walking,16,3.3970
+SVM (RBF),Sitting,Standing,47,9.5723
+SVM (RBF),Walking Downstairs,Walking Upstairs,25,5.9524
+SVM (RBF),Walking Upstairs,Walking,15,3.1847

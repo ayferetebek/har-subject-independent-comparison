@@ -1,0 +1,21 @@
+Feature Subset,Num. Features,Model,Accuracy,F1 (macro)
+All features,561,SVM (Linear),0.9617,0.9615
+All features,561,SVM (RBF),0.9586,0.9579
+All features,561,KNN,0.9060,0.9015
+All features,561,Decision Tree,0.8517,0.8480
+Accelerometer only (Acc),345,SVM (Linear),0.9060,0.9059
+Accelerometer only (Acc),345,SVM (RBF),0.9108,0.9108
+Accelerometer only (Acc),345,KNN,0.8680,0.8631
+Accelerometer only (Acc),345,Decision Tree,0.8327,0.8296
+Gyroscope only (Gyro),213,SVM (Linear),0.8110,0.8141
+Gyroscope only (Gyro),213,SVM (RBF),0.8178,0.8199
+Gyroscope only (Gyro),213,KNN,0.7234,0.7196
+Gyroscope only (Gyro),213,Decision Tree,0.7055,0.7059
+Time domain only,265,SVM (Linear),0.9505,0.9505
+Time domain only,265,SVM (RBF),0.9559,0.9556
+Time domain only,265,KNN,0.8965,0.8923
+Time domain only,265,Decision Tree,0.8473,0.8447
+Frequency domain only,289,SVM (Linear),0.8673,0.8691
+Frequency domain only,289,SVM (RBF),0.8683,0.8695
+Frequency domain only,289,KNN,0.7930,0.7919
+Frequency domain only,289,Decision Tree,0.7747,0.7765
