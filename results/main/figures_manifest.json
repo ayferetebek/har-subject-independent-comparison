@@ -1,0 +1,98 @@
+[
+  {
+    "file": "Figure02_leakage_stress_test",
+    "caption": "Figure 2. Macro-F1 under a leaky (naive) vs. a leakage-safe (subject-grouped) cross-validation scheme, using a fixed linear-SVM probe."
+  },
+  {
+    "file": "Figure03_class_distribution",
+    "caption": "Figure 3. Class distribution in the train and test sets."
+  },
+  {
+    "file": "Figure04_samples_per_subject",
+    "caption": "Figure 4. Number of samples per subject (train in blue, test in orange)."
+  },
+  {
+    "file": "Figure05_top_discriminative_features",
+    "caption": "Figure 5. Distribution of the six most discriminative features (highest ANOVA F-score) by class."
+  },
+  {
+    "file": "Figure06_correlation_heatmap",
+    "caption": "Figure 6. Pairwise correlation of the 30 most discriminative features."
+  },
+  {
+    "file": "Figure07_pca",
+    "caption": "Figure 7. PCA cumulative explained variance and 2D projection of the training set."
+  },
+  {
+    "file": "Figure08_tsne",
+    "caption": "Figure 8. t-SNE embedding of a training-set subsample."
+  },
+  {
+    "file": "Figure09_hyperparameter_sensitivity",
+    "caption": "Figure 9. Hyperparameter sensitivity of each model on the subject-grouped validation folds."
+  },
+  {
+    "file": "Figure10_metric_comparison",
+    "caption": "Figure 10. Test-set performance comparison across models and metrics."
+  },
+  {
+    "file": "Figure11_per_class_metrics",
+    "caption": "Figure 11. Per-class precision, recall and F1 across models."
+  },
+  {
+    "file": "Figure12_confusion_matrix_counts",
+    "caption": "Figure 12. Confusion matrices (raw counts) for all models."
+  },
+  {
+    "file": "Figure13_confusion_matrix_normalized",
+    "caption": "Figure 13. Row-normalized confusion matrices for all models."
+  },
+  {
+    "file": "Figure14_roc_per_class",
+    "caption": "Figure 14. Per-class one-vs-rest ROC curves for all models."
+  },
+  {
+    "file": "Figure15_roc_pr_comparison",
+    "caption": "Figure 15. Micro-averaged ROC and precision-recall curves."
+  },
+  {
+    "file": "Figure16_mcnemar",
+    "caption": "Figure 16. Pairwise McNemar's test p-values (Holm-corrected)."
+  },
+  {
+    "file": "Figure17_cv_boxplot",
+    "caption": "Figure 17. Fold-level accuracy and macro-F1 distributions across models."
+  },
+  {
+    "file": "Figure18_learning_curves",
+    "caption": "Figure 18. Learning curves (subject-grouped CV) for all models."
+  },
+  {
+    "file": "Figure19_validation_curves",
+    "caption": "Figure 19. Validation curves (subject-grouped CV) for a key hyperparameter of each model."
+  },
+  {
+    "file": "Figure20_pca_experiment",
+    "caption": "Figure 20. Effect of the number of PCA components on test accuracy and training time."
+  },
+  {
+    "file": "Figure21_decision_tree_importances",
+    "caption": "Figure 21. Top 20 most important features according to the Decision Tree."
+  },
+  {
+    "file": "Figure22_group_importances",
+    "caption": "Figure 22. Total feature importance aggregated by sensor and domain."
+  },
+  {
+    "file": "Figure23_feature_ablation",
+    "caption": "Figure 23. Test accuracy under feature-group ablation."
+  },
+  {
+    "file": "Figure24_noise_robustness",
+    "caption": "Figure 24. Test accuracy as a function of injected feature-space noise level."
+  },
+  {
+    "file": "Figure25_accuracy_speed",
+    "caption": "Figure 25. Accuracy-speed trade-off across models (bubble size proportional to training time)."
+  }
+]

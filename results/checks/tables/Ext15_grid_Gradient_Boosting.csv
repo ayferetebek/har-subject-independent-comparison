@@ -1,0 +1,4 @@
+params,mean_test_score,std_test_score
+{'clf__learning_rate': 0.1},0.9156377203097996,0.03959498042076831
+{'clf__learning_rate': 0.2},0.914218802690697,0.03999832645072411
+{'clf__learning_rate': 0.3},0.9156120838899563,0.04133576788461482

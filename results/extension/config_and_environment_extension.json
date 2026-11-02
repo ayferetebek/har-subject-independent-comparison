@@ -1,0 +1,61 @@
+{
+  "env": {
+    "python": "3.13.18",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3",
+    "seed": 42
+  },
+  "settings": {
+    "FAST_MODE": false,
+    "N_FOLDS": 10,
+    "N_REPEATS": 3,
+    "N_BOOT": 2000,
+    "RF_TREES": 300,
+    "HGB_ITER": 200,
+    "RUN_REPEATED_CV": true,
+    "RUN_LOSO": true
+  },
+  "model_params": {
+    "SVM (Linear)": {
+      "C": "0.1",
+      "gamma": "scale",
+      "kernel": "linear",
+      "max_iter": "-1"
+    },
+    "SVM (RBF)": {
+      "C": "100",
+      "gamma": "0.001",
+      "kernel": "rbf",
+      "max_iter": "-1"
+    },
+    "KNN": {
+      "metric": "manhattan",
+      "n_neighbors": "21",
+      "weights": "distance"
+    },
+    "Decision Tree": {
+      "criterion": "entropy",
+      "max_depth": "12",
+      "max_features": "None",
+      "min_samples_leaf": "5"
+    },
+    "Random Forest": {
+      "criterion": "gini",
+      "max_depth": "None",
+      "max_features": "sqrt",
+      "min_samples_leaf": "3",
+      "n_estimators": "300"
+    },
+    "Gradient Boosting": {
+      "l2_regularization": "0.0",
+      "learning_rate": "0.1",
+      "max_depth": "None",
+      "max_features": "1.0",
+      "max_iter": "200",
+      "min_samples_leaf": "20"
+    }
+  },
+  "runtime_seconds": 2380.5
+}

@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Hyperparameters of the ensemble models (subject-grouped 5-fold CV on training subjects).}
+\label{tab:Ext01_ensemble_hyperparameters}
+\begin{tabular}{lllrr}
+\toprule
+ & Best Hyperparameters & CV Macro-F1 (mean +/- std) & Num. Candidates & Search Time (s) \\
+Model &  &  &  &  \\
+\midrule
+Random Forest & max_features=sqrt, min_samples_leaf=3 & 0.9056 +/- 0.0388 & 4 & 456.9000 \\
+Gradient Boosting & l2_regularization=0.0, learning_rate=0.1 & 0.9156 +/- 0.0396 & 4 & 323.3000 \\
+\bottomrule
+\end{tabular}
+\end{table}

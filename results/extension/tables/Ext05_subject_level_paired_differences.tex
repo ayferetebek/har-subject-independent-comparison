@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Subject-level bootstrap of paired accuracy differences (Linear SVM minus other models).}
+\label{tab:Ext05_subject_level_paired_differences}
+\begin{tabular}{lrrrr}
+\toprule
+ & Mean diff & 95% CI low & 95% CI high & Share of resamples with diff > 0 \\
+Comparison &  &  &  &  \\
+\midrule
+SVM (Linear) - SVM (RBF) (accuracy) & 0.0029 & -0.0057 & 0.0135 & 0.6900 \\
+SVM (Linear) - KNN (accuracy) & 0.0553 & 0.0300 & 0.0831 & 1.0000 \\
+SVM (Linear) - Decision Tree (accuracy) & 0.1105 & 0.0777 & 0.1461 & 1.0000 \\
+SVM (Linear) - Random Forest (accuracy) & 0.0354 & 0.0166 & 0.0575 & 1.0000 \\
+SVM (Linear) - Gradient Boosting (accuracy) & 0.0273 & 0.0060 & 0.0507 & 0.9955 \\
+\bottomrule
+\end{tabular}
+\end{table}

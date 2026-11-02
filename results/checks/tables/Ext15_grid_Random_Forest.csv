@@ -1,0 +1,4 @@
+params,mean_test_score,std_test_score
+{'clf__min_samples_leaf': 3},0.9055584575894835,0.038828949918819355
+{'clf__min_samples_leaf': 5},0.9078914449724482,0.03457155692474607
+{'clf__min_samples_leaf': 10},0.9220842970635331,0.024718010501199098

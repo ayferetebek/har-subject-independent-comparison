@@ -1,0 +1,15 @@
+\begin{table}
+\caption{Effect of extending the hyperparameter grids beyond the original edge.}
+\label{tab:Ext15_extended_grid_sensitivity}
+\begin{tabular}{lllrrrrrrrr}
+\toprule
+ & Original & Best in extended grid & CV macro-F1 original & CV macro-F1 best & CV gain (points) & Test acc original & Test acc best & Test acc change (points) & Optimum still at new edge & Search time (s) \\
+Model &  &  &  &  &  &  &  &  &  &  \\
+\midrule
+KNN & n_neighbors=21 & n_neighbors=21 & 0.8968 & 0.8968 & 0.0000 & 0.9060 & 0.9060 & 0.0000 & False & 77.9000 \\
+SVM (RBF) & C=100, gamma=0.001 & C=300, gamma=0.0001 & 0.9289 & 0.9303 & 0.1439 & 0.9586 & 0.9596 & 0.1018 & False & 28.0000 \\
+Random Forest & min_samples_leaf=3 & min_samples_leaf=10 & 0.9056 & 0.9221 & 1.6526 & 0.9264 & 0.9240 & -0.2375 & True & 342.7000 \\
+Gradient Boosting & learning_rate=0.1 & learning_rate=0.1 & 0.9156 & 0.9156 & 0.0000 & 0.9348 & 0.9348 & 0.0000 & False & 257.1000 \\
+\bottomrule
+\end{tabular}
+\end{table}

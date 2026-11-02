@@ -1,0 +1,16 @@
+\begin{table}
+\label{tab:Ext03_mcnemar_vs_linear_svm}
+\begin{tabular}{llrrrrl}
+\toprule
+ &  & A correct / B wrong & A wrong / B correct & p & p (Holm) & Significance \\
+Model A & Model B &  &  &  &  &  \\
+\midrule
+\multirow[t]{5}{*}{SVM (Linear)} & SVM (RBF) & 43 & 34 & 0.3619 & 0.3619 & ns \\
+ & KNN & 206 & 42 & 0.0000 & 0.0000 & *** \\
+ & Decision Tree & 371 & 47 & 0.0000 & 0.0000 & *** \\
+ & Random Forest & 152 & 48 & 0.0000 & 0.0000 & *** \\
+ & Gradient Boosting & 116 & 37 & 0.0000 & 0.0000 & *** \\
+\cline{1-7}
+\bottomrule
+\end{tabular}
+\end{table}

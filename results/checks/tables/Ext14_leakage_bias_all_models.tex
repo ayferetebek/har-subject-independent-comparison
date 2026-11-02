@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Optimistic bias of naive (subject-mixing) vs. subject-grouped 5-fold CV for all models.}
+\label{tab:Ext14_leakage_bias_all_models}
+\begin{tabular}{lrrrrrr}
+\toprule
+ & Naive macro-F1 (mean) & Naive (std over folds) & Grouped macro-F1 (mean) & Grouped (std over folds) & Optimistic bias (points) & Bias std over repeats (points) \\
+Model &  &  &  &  &  &  \\
+\midrule
+SVM (Linear) & 0.9858 & 0.0020 & 0.9321 & 0.0322 & 5.3753 & 0.2114 \\
+SVM (RBF) & 0.9882 & 0.0021 & 0.9307 & 0.0253 & 5.7550 & 0.2087 \\
+KNN & 0.9658 & 0.0048 & 0.8918 & 0.0287 & 7.3996 & 0.3794 \\
+Decision Tree & 0.9434 & 0.0065 & 0.8461 & 0.0476 & 9.7347 & 0.4867 \\
+Random Forest & 0.9791 & 0.0031 & 0.9071 & 0.0431 & 7.1926 & 0.4197 \\
+Gradient Boosting & 0.9938 & 0.0016 & 0.9181 & 0.0454 & 7.5669 & 0.3340 \\
+\bottomrule
+\end{tabular}
+\end{table}

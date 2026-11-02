@@ -1,0 +1,102 @@
+[
+  {
+    "file": "Table01_dataset_summary",
+    "caption": "Table 1. Dataset summary (train vs. test split)."
+  },
+  {
+    "file": "Table02a_leakage_audit_subjects_duplicates",
+    "caption": "Table 2a. Subject-overlap and (near-)duplicate-row leakage audit between train and test."
+  },
+  {
+    "file": "Table02b_leakage_stress_test_cv_schemes",
+    "caption": "Table 2b. Optimistic bias from a naive (subject-mixing) K-Fold versus the subject-grouped K-Fold used throughout this study, measured with a fixed linear-SVM probe."
+  },
+  {
+    "file": "Table02c_label_permutation_sanity_check",
+    "caption": "Table 2c. Label-permutation sanity check: test accuracy of a probe model trained on randomly permuted training labels, compared with chance level."
+  },
+  {
+    "file": "Table03_class_distribution",
+    "caption": "Table 3. Class distribution in the train and test sets."
+  },
+  {
+    "file": "Table04_hyperparameter_optimization",
+    "caption": "Table 4. Hyperparameter optimization results (subject-grouped 5-fold CV, macro-F1)."
+  },
+  {
+    "file": "Table05_test_results",
+    "caption": "Table 5. Performance metrics on the independent (subject-held-out) test set."
+  },
+  {
+    "file": "Table06_generalization_gap",
+    "caption": "Table 6. Train-vs-test accuracy gap per model (interpreted jointly with the Section 2 leakage diagnostics)."
+  },
+  {
+    "file": "Table07a_per_class_results",
+    "caption": "Table 7a. Per-class precision/recall/F1/support for every model."
+  },
+  {
+    "file": "Table07b_per_class_f1_pivot",
+    "caption": "Table 7b. Per-class F1 score, pivoted by model."
+  },
+  {
+    "file": "Table08a_top_confused_pairs",
+    "caption": "Table 8a. Three most frequently confused class pairs per model."
+  },
+  {
+    "file": "Table08b_static_dynamic_analysis",
+    "caption": "Table 8b. Static-vs-dynamic activity discrimination accuracy per model."
+  },
+  {
+    "file": "Table09a_per_class_auc",
+    "caption": "Table 9a. Per-class one-vs-rest AUC."
+  },
+  {
+    "file": "Table09b_average_precision",
+    "caption": "Table 9b. Micro- and macro-averaged precision (AP)."
+  },
+  {
+    "file": "Table10a_bootstrap_confidence_intervals",
+    "caption": "Table 10a. Bootstrap 95% confidence intervals (test set)."
+  },
+  {
+    "file": "Table10b_mcnemar",
+    "caption": "Table 10b. Pairwise McNemar's test (Holm-corrected)."
+  },
+  {
+    "file": "Table11_cv_10fold_summary",
+    "caption": "Table 11. 10-fold subject-independent CV summary on the full dataset."
+  },
+  {
+    "file": "Table12a_wilcoxon",
+    "caption": "Table 12a. Pairwise Wilcoxon signed-rank test on CV fold accuracies (Holm-corrected)."
+  },
+  {
+    "file": "Table12b_friedman_mean_ranks",
+    "caption": "Table 12b. Friedman test mean ranks per model."
+  },
+  {
+    "file": "Table13_pca_experiment",
+    "caption": "Table 13. Accuracy, F1 and training time as a function of the number of PCA components."
+  },
+  {
+    "file": "Table14a_top20_features",
+    "caption": "Table 14a. Top 20 most important features (Decision Tree)."
+  },
+  {
+    "file": "Table14b_feature_ablation",
+    "caption": "Table 14b. Feature-group ablation: accuracy and F1 by feature subset and model."
+  },
+  {
+    "file": "Table15_noise_robustness",
+    "caption": "Table 15. Test accuracy and F1 under increasing feature-space Gaussian noise."
+  },
+  {
+    "file": "Table16_complexity_efficiency",
+    "caption": "Table 16. Training time, inference speed, model size and test accuracy per model."
+  },
+  {
+    "file": "Table17_master_summary",
+    "caption": "Table 17. Master summary table across all evaluation metrics."
+  }
+]

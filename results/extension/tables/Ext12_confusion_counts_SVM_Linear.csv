@@ -1,0 +1,7 @@
+,Lying,Sitting,Standing,Walking,Walking Downstairs,Walking Upstairs
+Lying,537,0,0,0,0,0
+Sitting,1,436,53,0,0,1
+Standing,0,18,514,0,0,0
+Walking,0,0,0,495,1,0
+Walking Downstairs,0,0,0,6,399,15
+Walking Upstairs,0,0,0,16,2,453
